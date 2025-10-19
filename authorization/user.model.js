@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-mongoose.connect("mongodb+srv://sarvesh:sarvesh123@cluster0.qt2xa.mongodb.net/authtest")
+mongoose.connect("UR Mongo Uri")
 
 const userSchema = mongoose.Schema({
     username : String,
